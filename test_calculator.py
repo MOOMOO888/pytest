@@ -6,7 +6,7 @@ from app.calculator import add, subtract
 class TestCalculator(unittest.TestCase):
 
     def test_add(self):
-        self.assertEqual(add(3, 2), 5)
+        self.assertEqual(add(6, 2), 5)
         self.assertEqual(add(-1, 1), 0)
     
     def test_subtract(self):
